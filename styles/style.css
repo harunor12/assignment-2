@@ -1,3 +1,7 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
 .banner {
     width: 100%;
     height: 130px;
@@ -59,8 +63,90 @@
     align-items: center;
     gap: 10px;
 }
-.banner-text-follow img{
+
+.banner-text-follow img {
     width: 33.916px;
     height: 24px;
     flex-shrink: 0;
+}
+
+/* main section start */
+.main-section-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-section-1-bg {
+    background-image: url("../images/Group\ 14.png");
+}
+
+.play-like-the {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.goat {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.click-text {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+}
+.no-dowmload{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+}
+
+.main-section-2 {
+    height: 600px;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.we-are-gamer {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
