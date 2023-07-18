@@ -78,21 +78,24 @@
 
 .main-section-1-bg {
     background-image: url("../images/Group\ 14.png");
+    width: 100%;
+    padding-left: 120px;
 }
 
 .play-like-the {
     color: #0B0223;
-    text-align: center;
     font-family: Work Sans;
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    margin-left: 0;
 }
 
 .goat {
-    text-align: center;
     font-family: Work Sans;
     font-size: 95px;
     font-style: normal;
@@ -103,6 +106,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin: 0 0;
 }
 
 .click-text {
@@ -119,6 +123,19 @@
     text-transform: lowercase;
 }
 .no-dowmload{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+}
+.online-game-text{
     display: flex;
     align-items: center;
     gap: 5px;
