@@ -637,14 +637,22 @@
         display: flex;
         flex-direction: column;
         gap: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40px;
     }
 
     .games-container-2 {
         display: flex;
         flex-direction: column;
         gap: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40px;
     }
-
+ .icon-box{
+    width: 220px;
+ }
     /* footer */
     .footer {
         /* padding: 20px; */
@@ -654,6 +662,12 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 5px;
+        
+    }
+
+    .item-box li{
+        font-size: small;
+        font-weight: 400;
     }
 
     .social-media {
