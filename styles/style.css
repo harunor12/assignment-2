@@ -16,8 +16,23 @@
     font-size: 20px;
     font-weight: 600;
     text-transform: uppercase;
-    margin-top: 14px;
+    margin-top: 20px;
     /* align-items: flex-start; */
+}
+
+.btn-rogue {
+    border-radius: 48px;
+    background: #4EC5F7;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-style: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 20px;
 }
 
 .banner {
@@ -263,7 +278,28 @@
 .img {
     width: 330px;
 }
+.k{
+    position: relative;
+    top: 0;
 
+}
+.p{
+    position: absolute;
+}
+.watch-now{
+    position: relative;
+    top: -290px;
+    right: -130px;
+    color: #F948B2;
+    font: 600;
+}
+.play-icon{
+    position: relative;
+    top: -300px;
+    right: -140px;
+    color: #F948B2;
+    font: 600;
+}
 .videos-title {
     color: #534C64;
     font-size: 14px;
@@ -487,8 +523,8 @@
 
 /* media query */
 @media only screen and (max-width: 662px) {
-    *{
-        padding:2px;
+    * {
+        padding: 2px;
     }
 
     .banner-right,
@@ -499,7 +535,7 @@
     }
 
     .main-section-1 {
-       margin-top: 200px;
+        margin-top: 200px;
         display: flex;
         flex-direction: column;
         flex-direction: column-reverse;
@@ -563,7 +599,8 @@
         gap: 20px;
     }
 
-    .my-img, .icon-container {
+    .my-img,
+    .icon-container {
         width: 100%;
         height: 100%;
     }
@@ -582,10 +619,12 @@
         flex-direction: column-reverse;
         gap: 20px;
     }
-    .my-img-3{
+
+    .my-img-3 {
         width: 200px;
         height: 300px;
     }
+
     .my-img-4 {
         position: absolute;
         bottom: -180px;
@@ -595,31 +634,34 @@
 
     /* main-section-5 */
     .games-container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
     }
-     .games-container-2{
+
+    .games-container-2 {
         display: flex;
         flex-direction: column;
         gap: 20px;
     }
 
     /* footer */
-    .footer{
+    .footer {
         /* padding: 20px; */
     }
-    .item-box{
+
+    .item-box {
         display: grid;
-        grid-template-columns:repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 5px;
     }
 
-    .social-media{
+    .social-media {
         display: flex;
         flex-direction: column;
     }
-    .terms-condition{
+
+    .terms-condition {
         display: flex;
         flex-direction: column;
     }
